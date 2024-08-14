@@ -11,6 +11,8 @@ cd yay
 makepkg -si
 
 
+conf --gen > ~/.config/aura/config.toml
+
 yay --version
 
 yay -S coolercontrol
