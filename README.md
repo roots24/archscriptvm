@@ -12,3 +12,8 @@ makepkg -si
 
 
 yay --version
+
+yay -S coolercontrol
+
+
+sudo systemctl enable --now coolercontrold
